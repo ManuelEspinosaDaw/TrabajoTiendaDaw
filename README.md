@@ -1,38 +1,43 @@
-# 🌟 Proyecto de Clase: [Nombre de la Web] 🌐
+<h1 align="center" style="color:#4CAF50;">🌟 Proyecto de Clase: <span style="color:#008CBA;">[Nombre de la Web]</span> 🌐</h1>
 
-¡Bienvenido al repositorio oficial de nuestro proyecto de clase! 🎉  
-Este es un esfuerzo colaborativo de un equipo apasionado de cuatro compañeros, desarrollado como parte de nuestras actividades académicas. 🚀
+<p align="center">
+  <img src="https://img.shields.io/badge/Estado-En%20Progreso-blue?style=flat-square" alt="Estado del Proyecto">
+  <img src="https://img.shields.io/badge/Colaboradores-4-green?style=flat-square" alt="Colaboradores">
+</p>
 
 ---
 
 ## 👥 **Equipo de Trabajo**
-- **[Nombre del Compañero 1]**
-- **[Nombre del Compañero 2]**
-- **[Nombre del Compañero 3]**
-- **[Nombre del Compañero 4]**
+| Nombre               | Rol                            |
+|----------------------|---------------------------------|
+| **[Nombre 1]**       | Líder del proyecto y frontend  |
+| **[Nombre 2]**       | Backend y base de datos        |
+| **[Nombre 3]**       | Diseñador UX/UI               |
+| **[Nombre 4]**       | Tester y encargado de QA       |
 
 ---
 
 ## 📖 **Descripción del Proyecto**
-Esta es una web diseñada para una tienda de ropa.
-El objetivo principal de este proyecto es aprender y aplicar conocimientos sobre desarrollo web, trabajo en equipo y uso de herramientas de control de versiones como GitHub.
+🎯 **Objetivo:** Crear una web funcional para [describir el propósito].  
+📌 **Características clave:**  
+- **Diseño atractivo y moderno**.  
+- **Colaboración efectiva** entre todos los integrantes.  
+- **Funcionalidades avanzadas** como [detalla funciones].  
 
----
-
-## 🛠️ **Características**
-- 🔹 **Interfaz amigable:** Diseño simple y atractivo para una excelente experiencia de usuario.  
-- 🔹 **Funcionalidad colaborativa:** Permite [detallar funcionalidades principales].  
-- 🔹 **Adaptabilidad:** Totalmente responsive para diferentes dispositivos.  
+💡 Este proyecto fue diseñado para aplicar habilidades aprendidas en [materia o curso].
 
 ---
 
 ## 🚀 **Tecnologías Utilizadas**
-- **HTML5**  
-- **CSS3**  
-- **JavaScript**  
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript">
+</p>
+
 ---
 
-## 📝 **Cómo Usar este Repositorio**
+## 🛠️ **Cómo Ejecutar el Proyecto**
 1. **Clona el repositorio:**
    ```bash
    git clone https://github.com/tu_usuario/tu_repositorio.git
