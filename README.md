@@ -40,4 +40,4 @@
 ## 🛠️ **Cómo Ejecutar el Proyecto**
 1. **Clona el repositorio:**
    ```bash
-   git clone (https://github.com/ManuelEspinosaDaw/TrabajoTiendaDaw.git)
+   git clone https://github.com/ManuelEspinosaDaw/TrabajoTiendaDaw.git
