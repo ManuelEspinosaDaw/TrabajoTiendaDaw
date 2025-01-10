@@ -6,15 +6,15 @@ Este es un esfuerzo colaborativo de un equipo apasionado de cuatro compañeros, 
 ---
 
 ## 👥 **Equipo de Trabajo**
-- **[Nombre del Compañero 1]**:
-- **[Nombre del Compañero 2]**:
-- **[Nombre del Compañero 3]**:
-- **[Nombre del Compañero 4]**:
+- **[Nombre del Compañero 1]**
+- **[Nombre del Compañero 2]**
+- **[Nombre del Compañero 3]**
+- **[Nombre del Compañero 4]**
 
 ---
 
 ## 📖 **Descripción del Proyecto**
-Esta es una web diseñada para [describir el propósito de la web, por ejemplo: facilitar la gestión de tareas, compartir recursos, etc.].  
+Esta es una web diseñada para una tienda de ropa.
 El objetivo principal de este proyecto es aprender y aplicar conocimientos sobre desarrollo web, trabajo en equipo y uso de herramientas de control de versiones como GitHub.
 
 ---
