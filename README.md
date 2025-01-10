@@ -1,4 +1,4 @@
-<h1 align="center" style="color:#4CAF50;">🌟 Proyecto de Clase: <span style="color:#008CBA;">[Nombre de la Web]</span> 🌐</h1>
+<h1 align="center" style="color:#4CAF50;">🌟 Proyecto de Clase: <span style="color:#008CBA;">Web Tienda</span> 🌐</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Estado-En%20Progreso-blue?style=flat-square" alt="Estado del Proyecto">
