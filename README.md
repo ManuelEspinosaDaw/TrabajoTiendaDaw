@@ -8,12 +8,12 @@
 ---
 
 ## 👥 **Equipo de Trabajo**
-| Nombre               | Rol                            |
-|----------------------|---------------------------------|
-| **[Nombre 1]**       | Líder del proyecto y frontend  |
-| **[Nombre 2]**       | Backend y base de datos        |
-| **[Nombre 3]**       | Diseñador UX/UI               |
-| **[Nombre 4]**       | Tester y encargado de QA       |
+| Nombre                 | Rol                            |
+|------------------------|---------------------------------|
+| **[Daniel Calatayud]** |                                |
+| **[Jorge Carpintero]** |                                |
+| **[Manuel Espinosa]**  |                                |
+| **[Siena Saifi]**      |                                |
 
 ---
 
@@ -24,7 +24,7 @@
 - **Colaboración efectiva** entre todos los integrantes.  
 - **Funcionalidades avanzadas** como [detalla funciones].  
 
-💡 Este proyecto fue diseñado para aplicar habilidades aprendidas en [materia o curso].
+💡 Este proyecto fue diseñado para aplicar habilidades aprendidas en la asgintaura de Marcas en Daw1.
 
 ---
 
