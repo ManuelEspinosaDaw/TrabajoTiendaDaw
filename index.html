@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Web</title>
+    <title>Navbar Tienda</title>
     <link rel="stylesheet" href="./css/globals.css">
     <link rel="stylesheet" href="./css/navbar.css">
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="nav-container">
             <a href="/" class="logo">
-                TuTienda
+                Tienda Web
             </a>
-            
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span>≡</span>
+            </label>
+
             <ul class="nav-links">
                 <li class="nav-item">
                     <a href="/" class="nav-link active">Inicio</a>
@@ -32,17 +40,27 @@
                     <a href="/contacto" class="nav-link">Contacto</a>
                 </li>
             </ul>
-            
+
             <div class="nav-icons">
                 <a href="/buscar" class="icon-link">
-                    <span class="search-icon">🔍</span>
+                    <svg class="icon" viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2"
+                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
                 </a>
                 <a href="/carrito" class="icon-link">
-                    <span class="cart-icon">🛒</span>
+                    <svg class="icon" viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2"
+                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
                     <span class="cart-count">0</span>
                 </a>
             </div>
         </div>
     </nav>
 </body>
+
 </html>
