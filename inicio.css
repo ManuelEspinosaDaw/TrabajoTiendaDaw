@@ -1,0 +1,107 @@
+.video {
+  width: 100%; height: 800px;
+}
+
+.video video{
+  width: 100%; height: 800px;
+  object-fit: cover;
+  
+}
+
+.flecha_abajo{
+  width: 70px; height: 70px;
+  
+  position: absolute;
+  border-radius: 50%;
+  bottom: 6%;
+  left: 47%;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+  border: 5px solid black;
+
+  
+  
+  border: 6px solid rgba(255, 255, 255, 0.5);
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06),
+    0 0 0 1px rgba(255, 255, 255, 0.3) inset;
+}
+
+
+#center{
+  width: 100%; height: 250px;
+}
+
+.box{
+  width: 25%; height: 580px;
+  margin-top: 5px;
+  position: relative;
+  float: left;
+  
+}
+.box img{
+  margin-left: 90px;
+}
+.box:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.text{
+  margin-left: 30px;
+  font-size: 14px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}
+.price{
+  margin-left: 30px;
+  margin-top: 8px;
+  font-size: 13.5px;
+}
+.circle{
+  width: 60px; height: 10px;
+  margin-left: 30px;
+  margin-top: 6px;
+}
+.hola{
+  width: 10px; height: 10px; 
+  position: relative;
+  float: left;
+  border-radius: 2.5px;
+  background-color: black;
+  margin: 3px;
+}
+.añadir{
+  width: 80%;
+  margin-top: 12px;
+  margin-left: 30px;
+  background-color: (255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
+.añadir:hover {
+  transform: scale(1);
+  cursor: pointer;
+  border: 1.5px solid black;
+}
+.MEDIO{
+  width: 100%; height: 492px;
+  background-color: grey;
+  position: relative;
+  float: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.MEDIO img{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+

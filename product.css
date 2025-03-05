@@ -1,0 +1,163 @@
+.top{
+    width: 94%; height: 600px;
+    margin-top: 100px;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+.left{
+    width: 65%; height: 660px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+}
+.left img{ 
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.hoodie{
+    margin-bottom: 15px;
+}
+.right{
+    width: 35%; height: 600px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+}
+.text{
+    margin-top: 35px;
+    margin-left: 25px;
+    font-size: 22px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+}
+.price{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.circle2{
+    width: 80px; height: 15px;
+    margin-left: 23px;
+    margin-top: 10px;
+}
+.hola2{
+    width: 15px; height: 15px; 
+    margin-left: 30px;
+    position: relative;
+    float: left;
+    border-radius: 2.5px;
+    background-color: black;
+    margin: 3px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.hola2:hover{
+    transform: scale(1);
+    cursor: pointer;
+    border: 1.5px solid black;
+}
+.sizes{
+    width: 200px; height: 15px;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+.size{
+    width: 20px; height: 15px;
+    margin: 10px;
+    position: relative;
+    float: left;
+    padding: 0.5rem;
+    transition: all 0.2s ease;
+}
+.añadir2{
+    width: 90%;
+    margin-top: 60px;
+    margin-left: 30px;
+    background-color: (255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
+.añadir2:hover {
+    transform: scale(1);
+    cursor: pointer;
+    border: 1.5px solid black;
+}
+.description{
+    margin-top: 15px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+}
+.line{
+    width: 90%; height: 2px;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: black; 
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.bottom{
+    width: 100%; height: 1000px;
+    margin-top: 10px;
+}
+.title{
+    width: 94%; height: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 10px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.hola{
+    width: 10px; height: 10px; 
+    position: relative;
+    float: left;
+    border-radius: 2.5px;
+    background-color: black;
+    margin: 3px;
+}
+.box{
+    width: 25%; height: 640px;
+    margin-top: 10px;
+    position: relative;
+    float: left;
+}
+.box img{
+    margin-left: 90px;
+}
+.box:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.circle{
+    width: 60px; height: 10px;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+.añadir{
+    width: 80%;
+    margin-top: 12px;
+    margin-left: 30px;
+    background-color: (255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
+.añadir:hover {
+    transform: scale(1);
+    cursor: pointer;
+    border: 1.5px solid black;
+}
+
+
+
+
+
+
