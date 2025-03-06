@@ -1,10 +1,12 @@
 footer {
-    position: relative;
     width: 100%;
     bottom: 1rem;
     margin-top: 10px;
-    z-index: 1000;
     padding: 0 1.5rem;
+}
+
+#footer{
+    position: absolute;
 }
 
 .container{
