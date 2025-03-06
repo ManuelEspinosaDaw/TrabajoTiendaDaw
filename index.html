@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Web</title>
-    <link rel="stylesheet" href="globals.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="./css/globals.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="stylesheet" href="./css/productos.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 </head>
@@ -15,7 +17,7 @@
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="/" class="logo">
+            <a href="#" class="logo">
                 Tienda Web
             </a>
 
@@ -26,16 +28,16 @@
 
             <ul class="nav-links">
                 <li class="nav-item">
-                    <a href="/" class="nav-link active">Inicio</a>
+                    <a href="index.html" class="nav-link">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/pages/productos.html" class="nav-link">Productos</a>
+                    <a href="pages/productos.html" class="nav-link">Productos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/ofertas" class="nav-link">Ofertas</a>
+                    <a href="ofertas" class="nav-link">Ofertas</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/pages/contacto.html" class="nav-link">Contacto</a>
+                    <a href="pages/contacto.html" class="nav-link">Contacto</a>
                 </li>
             </ul>
 
@@ -61,13 +63,13 @@
     </nav>
     
     <div class="video">
-        <video  src="RPReplay_Final1739204316.mov" loop muted ></video>
+        <video  src="RPReplay_Final1739204316.mov" autoplay loop muted ></video>
     </div>
 
-<div id="center">
+<main id="center">
 
     <div class="box">
-        <img src="hoodie4.webp" class="hoodie1">
+        <img src="./img/hoodies/hoodie4.webp" class="hoodie1">
         <div class="text">FINE ART SUDADERA GRIS</div>
         <div class="price" >85€</div>
         
@@ -82,7 +84,7 @@
     </div>
 
     <div class="box">
-        <img src="hoodie8.webp" class="hoodie1">
+        <img src="./img/hoodies/hoodie8.webp" class="hoodie1">
         <div class="text">MONEY SUDADERA VERDE</div>
         <div class="price" >85€</div>
 
@@ -97,7 +99,7 @@
     </div>
 
     <div class="box">
-        <img src="hoodie5.webp" class="hoodie1">
+        <img src="./img/hoodies/hoodie5.webp" class="hoodie1">
         <div class="text">VIRGINITY SUDADERA GRIS</div>
         <div class="price">85€</div>
 
@@ -112,7 +114,7 @@
     </div>
 
     <div class="box">
-        <img src="hoodie2.webp" class="hoodie1">
+        <img src="./img/hoodies/hoodie2.webp" class="hoodie1">
         <div class="text">LOCALLY HATED SUDADERA NEGRA</div>
         <div class="price">85€</div>
 
@@ -125,7 +127,29 @@
         <button class="añadir">+</button>
     </div>
 
-</div>
+</main>
+
+    
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Tienda Web</span>
+            </a>
+            <ul class="footer-links">
+                <a href="#" class="footer-link">About</a>
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Licensing</a>
+                <a href="#" class="footer-link">Contact</a>
+            </ul>
+        </div>
+        <hr class="footer-divider" />
+        <span class="footer-text">© 2025. All Rights Reserved.</span>
+    </div>
+</footer>
+
+
 
 
 </body>

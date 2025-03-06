@@ -46,6 +46,8 @@ form {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 14px;
+    resize: none;
+    overflow-y: auto;
 }
 
 .form-container input:focus ,
@@ -53,6 +55,8 @@ form {
     border-color: #000;
     outline: none;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    resize: none;
+    overflow-y: auto;
 }
 
 .form-container button {
