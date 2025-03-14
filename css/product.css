@@ -1,163 +1,212 @@
-.top{
-    width: 94%; height: 600px;
-    margin-top: 100px;
-    margin-left: 3%;
-    margin-right: 3%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Contenedor Principal */
+.product-container {
+    max-width: 1100px;
+    margin: 100px 20px auto;
+    padding: 20px;
+}
+
+/* Card del Producto */
+.product-card {
+    display: flex;
+    background: white;
     border-radius: 10px;
-    background-color: #F5F5F5;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-.left{
-    width: 65%; height: 660px;
-    border-radius: 10px;
-    position: relative;
-    float: left;
+
+/* Imágenes del Producto */
+.product-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.left img{ 
-    margin-top: 30px;
-    margin-left: 70px;
+
+.main-image {
+    width: 100%;
+    max-width: 400px; /* Imagen más grande */
 }
-.hoodie{
-    margin-bottom: 15px;
+
+.alt-image {
+    width: 120px;
+    margin-top: 10px;
+    opacity: 0.8;
+    cursor: pointer;
 }
-.right{
-    width: 35%; height: 600px;
-    border-radius: 10px;
-    position: relative;
-    float: left;
+
+.alt-image:hover {
+    opacity: 1;
 }
-.text{
-    margin-top: 35px;
-    margin-left: 25px;
+
+/* Información del Producto */
+.product-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.product-title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.product-price {
     font-size: 22px;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-    font-weight: 700;
+    color: #333;
+    font-weight: bold;
 }
-.price{
-    margin-left: 25px;
-    margin-top: 10px;
+
+.color-options {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
 }
-.circle2{
-    width: 80px; height: 15px;
-    margin-left: 23px;
-    margin-top: 10px;
-}
-.hola2{
-    width: 15px; height: 15px; 
-    margin-left: 30px;
-    position: relative;
-    float: left;
-    border-radius: 2.5px;
-    background-color: black;
-    margin: 3px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-}
-.hola2:hover{
-    transform: scale(1);
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
     cursor: pointer;
-    border: 1.5px solid black;
+    border: 2px solid transparent;
 }
-.sizes{
-    width: 200px; height: 15px;
-    margin-left: 16px;
+
+.color:hover {
+    border: 2px solid #555;
+}
+
+.product-description {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #555;
+}
+
+.sizes {
+    display: flex;
+    gap: 10px;
     margin-top: 10px;
 }
-.size{
-    width: 20px; height: 15px;
-    margin: 10px;
-    position: relative;
-    float: left;
-    padding: 0.5rem;
-    transition: all 0.2s ease;
-}
-.añadir2{
-    width: 90%;
-    margin-top: 60px;
-    margin-left: 30px;
-    background-color: (255, 255, 255, 0.8);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.24);
-    border-radius: 1rem;
-    padding: 1rem 2rem;
-}
-.añadir2:hover {
-    transform: scale(1);
+
+.size {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     cursor: pointer;
-    border: 1.5px solid black;
+    font-size: 15px;
 }
-.description{
+
+.size:hover {
+    background-color: #eee;
+}
+
+.add-to-cart {
     margin-top: 15px;
-    margin-left: 20px;
-    position: relative;
-    float: left;
+    padding: 12px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100%;
 }
-.line{
-    width: 90%; height: 2px;
-    position: relative;
-    float: left;
-    margin-left: 20px;
-    margin-top: 20px;
-    background-color: black; 
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+
+.add-to-cart:hover {
+    background: #333;
 }
-.bottom{
-    width: 100%; height: 1000px;
-    margin-top: 10px;
-}
-.title{
-    width: 94%; height: 50px;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-top: 10px;
-    background-color: #F5F5F5;
-    border-radius: 10px;
+
+/* Sección Visto Recientemente */
+.recently-viewed-title {
+    font-size: 22px;
+    margin-top: 40px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
-.hola{
-    width: 10px; height: 10px; 
-    position: relative;
-    float: left;
-    border-radius: 2.5px;
-    background-color: black;
-    margin: 3px;
+
+/* Contenedor centrado de "Visto Recientemente" */
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
 }
-.box{
-    width: 25%; height: 640px;
-    margin-top: 10px;
-    position: relative;
-    float: left;
+
+/* Estilo de cada producto en "Visto Recientemente" */
+.box {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    transition: all 0.3s ease;
 }
-.box img{
-    margin-left: 90px;
-}
-.box:hover{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+.hoodie1 {
+    width: 300px;
     border-radius: 10px;
 }
-.circle{
-    width: 60px; height: 10px;
-    margin-left: 30px;
-    margin-top: 6px;
+
+/* Efecto hover */
+.box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
-.añadir{
+
+/* Texto del producto */
+.text {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Precio */
+.price {
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Botón añadir */
+.añadir {
     width: 80%;
     margin-top: 12px;
-    margin-left: 30px;
-    background-color: (255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 1rem;
     padding: 1rem 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
 }
+
 .añadir:hover {
-    transform: scale(1);
     cursor: pointer;
     border: 1.5px solid black;
+    transform: scale(1.05);
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+    .product-card {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .main-image {
+        max-width: 350px;
+    }
 
+    #center {
+        flex-direction: column;
+        align-items: center;
+    }
 
-
-
+    .box {
+        width: 90%;
+    }
+}
