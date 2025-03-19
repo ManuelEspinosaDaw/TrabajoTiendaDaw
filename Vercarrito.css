@@ -1,0 +1,206 @@
+/* Estilo general para la página del carrito */
+.cart-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.cart-header h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la lista de productos */
+.cart-items {
+    margin-bottom: 30px;
+}
+
+/* Estilo para cada producto en el carrito */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.cart-item-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cart-item-info {
+    flex-grow: 1;
+}
+
+.cart-item-info h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.cart-item-info p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.cart-item-quantity {
+    margin-right: 20px;
+}
+
+.cart-item-quantity input {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+}
+
+.cart-item-total {
+    font-weight: bold;
+}
+
+.remove-item {
+    background-color: gainsboro;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.remove-item:hover {
+    background-color: gainsboro;
+}
+
+/* Estilo para la sección de resumen del carrito */
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 2px solid #ddd;
+}
+
+.cart-summary p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.cart-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-checkout {
+    background-color: #007bff;
+    margin-right: 15px;
+}
+
+.btn-continue {
+    background-color: gainsboro;
+}
+
+.btn-checkout:hover {
+    background-color: #0056b3;
+}
+
+.btn-continue:hover {
+    background-color: #5a6268;
+}
+/* Estilo para el precio original y con descuento */
+.cart-item-price {
+    font-size: 1.1rem;
+}
+
+.original-price {
+    text-decoration: line-through; /* Tachado del precio original */
+    color: #999;
+    margin-right: 10px;
+}
+
+.discounted-price {
+    font-weight: bold;
+    color: black; /* Color rojo para resaltar el descuento */
+    font-size: 1.2rem;
+}
+
+/* Estilo para la cantidad y el total del producto */
+.cart-item-quantity {
+    margin-right: 20px;
+}
+
+.cart-item-quantity input {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+}
+
+.cart-item-total {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Botón para eliminar el producto */
+.remove-item {
+    background-color: gainsboro;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.remove-item:hover {
+    background-color: gainsboro;
+}
+
+/* Estilo para la sección de resumen del carrito */
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 2px solid #ddd;
+}
+
+.cart-summary p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.cart-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-checkout {
+    background-color: #007bff;
+    margin-right: 15px;
+}
+
+.btn-continue {
+    background-color: gainsboro;
+}
+
+.btn-checkout:hover {
+    background-color: #0056b3;
+}
+
+.btn-continue:hover {
+    background-color: gainsboro;
+}
