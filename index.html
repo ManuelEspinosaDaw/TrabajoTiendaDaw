@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/inicio.css">
     <link rel="stylesheet" href="./css/productos.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/carrito.css">
+    <link rel="stylesheet" href="./csspages/carrito.html.css">
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 </head>
@@ -35,7 +35,7 @@
                     <a href="pages/productos.html" class="nav-link">Productos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="pages/html" class="nav-link">Ofertas</a>
+                    <a href="pages/ofertas.html" class="nav-link">Ofertas</a>
                 </li>
                 <li class="nav-item">
                     <a href="pages/contacto.html" class="nav-link">Contacto</a>
@@ -50,7 +50,8 @@
                         <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                     </svg>
                 </a>
-                <label for="cart-toggle" class="icon-link">
+
+                <a href="pages/carrito.html" class="icon-link">
                     <svg class="icon" viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2"
                         fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="9" cy="21" r="1"></circle>
@@ -58,19 +59,7 @@
                         <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
                     </svg>
                     <span class="cart-count">0</span>
-                </label>
-                
-                <input type="checkbox" id="cart-toggle" style="display: none;" />
-                
-                <div class="cart-dropdown">
-                    <div class="cart-items">
-                        <!-- Aquí se mostrarían los productos añadidos al carrito -->
-                        <p>2 articulos añadidos al carrito pulse ver carrito para visualizar</p>
-                    </div>
-                    <div class="cart-footer">
-                        <a href="pages/carrito.html" class="btn-checkout">Ver carrito</a>
-                    </div>
-                </div>
+                </a>
                 
             </div>
         </div>
